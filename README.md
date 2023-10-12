@@ -2,11 +2,11 @@
 
 Mapeo de Pines
 
-Pata 1  -  Direccion  I2C = 0x41
+Pata 1  -  Direccion  I2C = 0x41\n
   
-  Q1 - pin = 14
-  Q2 - pin = 9
-  Q3 - pin = 10
+  Q1 - pin = 14\n
+  Q2 - pin = 9\n
+  Q3 - pin = 10\n
   
 Pata 2  -  Direccion  I2C = 0x41
 
