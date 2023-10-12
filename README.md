@@ -38,6 +38,6 @@ Pata 6  -  Direccion  I2C = 0x40<br>
   Q2 - pin = 5<br>
   Q3 - pin = 4<br>
 
-  
+ <br>
 
 ![My Remote Image](https://github.com/CesarHTC/Hexapod/blob/main/Documents/2023_HexTron_Assembly_page-0001.jpg?raw=true)
