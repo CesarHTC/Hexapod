@@ -10,33 +10,33 @@ Pata 1  -  Direccion  I2C = 0x41<br>
   
 Pata 2  -  Direccion  I2C = 0x41<br>
 
-  Q1 - pin = 13
-  Q2 - pin = 5
-  Q3 - pin = 4
+  Q1 - pin = 13<br>
+  Q2 - pin = 5<br>
+  Q3 - pin = 4<br>
 
-Pata 3  -  Direccion  I2C = 0x41
+Pata 3  -  Direccion  I2C = 0x41<br>
 
-  Q1 - pin = 12
-  Q2 - pin = 2
-  Q3 - pin = 1
+  Q1 - pin = 12<br>
+  Q2 - pin = 2<br>
+  Q3 - pin = 1<br>
   
-Pata 4  -  Direccion  I2C = 0x40
+Pata 4  -  Direccion  I2C = 0x40<br>
 
-  Q1 - pin = 3
-  Q2 - pin = 13
-  Q3 - pin = 12
+  Q1 - pin = 3<br>
+  Q2 - pin = 13<br>
+  Q3 - pin = 12<br>
 
-Pata 5  -  Direccion  I2C = 0x40
+Pata 5  -  Direccion  I2C = 0x40<br>
 
-  Q1 - pin = 2
-  Q2 - pin = 9
-  Q3 - pin = 8
+  Q1 - pin = 2<br>
+  Q2 - pin = 9<br>
+  Q3 - pin = 8<br>
 
-Pata 6  -  Direccion  I2C = 0x40
+Pata 6  -  Direccion  I2C = 0x40<br>
 
-  Q1 - pin = 1
-  Q2 - pin = 5
-  Q3 - pin = 4
+  Q1 - pin = 1<br>
+  Q2 - pin = 5<br>
+  Q3 - pin = 4<br>
 
   
 
