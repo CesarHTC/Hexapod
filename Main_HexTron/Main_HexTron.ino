@@ -125,4 +125,6 @@ void loop(){
   T = millis() * 0.001;//Capturamos el tiempo actual 
    //================
   Serial.println(map(pca9685_Leg_1_2_3.getPWM(0), 0, 270, 123, 614));
-  Serial.println(map(pca9
+  Serial.println(map(pca9685_Leg_4_5_6.getPWM(0), 0, 270, 123, 614));
+  Motion_set_1();
+}
