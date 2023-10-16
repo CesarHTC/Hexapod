@@ -64,7 +64,7 @@ Servo L6_q3; // "Servos" objects are created
 #define L6_q2    5
 #define L6_q3    4
 //========================================================
-//OBJETOS CREADOS PARA LA COMUNICACION CON LAS PCA 9586
+//OBJETOS CREADOS PARA LA COMUNICACION CON LAS PCA 9685
 Adafruit_PWMServoDriver pca9685_Leg_1_2_3 = Adafruit_PWMServoDriver(0x40);
 Adafruit_PWMServoDriver pca9685_Leg_4_5_6 = Adafruit_PWMServoDriver(0x41);
 //========================================================
