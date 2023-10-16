@@ -47,4 +47,5 @@ void Initialization_set_1() {
   L =5 ;
   pca9685_Leg_4_5_6.setPWM(L6_q1,0,map(q_offset[L][0],0,270,SERVOMIN,SERVOMAX));
   pca9685_Leg_4_5_6.setPWM(L6_q2,0,map(q_offset[L][1],0,270,SERVOMIN,SERVOMAX));
-  pca9685_Leg_4_5_6.setPWM(L6_q3,0,map(q
+  pca9685_Leg_4_5_6.setPWM(L6_q3,0,map(q_offset[L][2],0,270,SERVOMIN,SERVOMAX));
+}
