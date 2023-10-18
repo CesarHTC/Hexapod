@@ -7,7 +7,7 @@ void Motion_set_1() {
       q[L][i] = q[L][i] + delta_q[L][i];
     }
     //LEG 1
-    pca9685_Leg_1_2_3.setPWM(L1_q1,0,getPWM(q_offset[L][0]+int(rad2deg[L][0])));
+    pca9685_Leg_1_2_3.setPWM(L1_q1,0,getPWM(q_offset[L][0]+int(rad2deg(q[L][0]))));
     pca9685_Leg_1_2_3.setPWM(L1_q2,0,getPWM(q_offset[L][1]+int(PI-rad2deg(q[L][1]))));
     pca9685_Leg_1_2_3.setPWM(L1_q3,0,getPWM(q_offset[L][2]+int(rad2deg(q[L][2]))));
 
@@ -60,6 +60,6 @@ void Motion_set_1() {
     //LEG 6
     pca9685_Leg_4_5_6.setPWM(L6_q1,0,getPWM(q_offset[L][0]+int(rad2deg(q[L][0]))));
     pca9685_Leg_4_5_6.setPWM(L6_q2,0,getPWM(q_offset[L][1]+int(PI - rad2deg(q[L][1]))));
-    pca9685_Leg_4_2_3.setPWM(L6_q3,0,getPWM(q_offset[L][2]+int(rad2deg(q[L][2]))));
+    pca9685_Leg_4_5_6.setPWM(L6_q3,0,getPWM(q_offset[L][2]+int(rad2deg(q[L][2]))));
 }
 
